@@ -1,0 +1,517 @@
+.pr {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url('../images/products.png') no-repeat;
+}
+
+.pr.pr-0unknown {
+  background-position: 0 0;
+}
+
+.pr.pr-adidas {
+  background-position: -20px 0;
+}
+
+.pr.pr-airbnb {
+  background-position: 0 -20px;
+}
+
+.pr.pr-airtel {
+  background-position: -20px -20px;
+}
+
+.pr.pr-akelni {
+  background-position: -40px 0;
+}
+
+.pr.pr-alibaba {
+  background-position: -40px -20px;
+}
+
+.pr.pr-aliexpress {
+  background-position: 0 -40px;
+}
+
+.pr.pr-alipay {
+  background-position: -20px -40px;
+}
+
+.pr.pr-amazon {
+  background-position: -40px -40px;
+}
+
+.pr.pr-aol {
+  background-position: -60px 0;
+}
+
+.pr.pr-avito {
+  background-position: -60px -20px;
+}
+
+.pr.pr-azino {
+  background-position: -60px -40px;
+}
+
+.pr.pr-bittube {
+  background-position: 0 -60px;
+}
+
+.pr.pr-blablacar {
+  background-position: -20px -60px;
+}
+
+.pr.pr-blizzard {
+  background-position: -40px -60px;
+}
+
+.pr.pr-blockchain {
+  background-position: -60px -60px;
+}
+
+.pr.pr-burgerking {
+  background-position: -80px 0;
+}
+
+.pr.pr-careem {
+  background-position: -80px -20px;
+}
+
+.pr.pr-cekkazan {
+  background-position: -80px -40px;
+}
+
+.pr.pr-citymobil {
+  background-position: -80px -60px;
+}
+
+.pr.pr-craigslist {
+  background-position: 0 -80px;
+}
+
+.pr.pr-delivery {
+  background-position: -20px -80px;
+}
+
+.pr.pr-dent {
+  background-position: -40px -80px;
+}
+
+.pr.pr-discord {
+  background-position: -60px -80px;
+}
+
+.pr.pr-dixy {
+  background-position: -80px -80px;
+}
+
+.pr.pr-dodopizza {
+  background-position: -100px 0;
+}
+
+.pr.pr-domdara {
+  background-position: -100px -20px;
+}
+
+.pr.pr-dostavista {
+  background-position: -100px -40px;
+}
+
+.pr.pr-drom {
+  background-position: -100px -60px;
+}
+
+.pr.pr-drugvokrug {
+  background-position: -100px -80px;
+}
+
+.pr.pr-dukascopy {
+  background-position: 0 -100px;
+}
+
+.pr.pr-ebay {
+  background-position: -20px -100px;
+}
+
+.pr.pr-edgeless {
+  background-position: -40px -100px;
+}
+
+.pr.pr-electroneum {
+  background-position: -60px -100px;
+}
+
+.pr.pr-facebook {
+  background-position: -80px -100px;
+}
+
+.pr.pr-fiverr {
+  background-position: -100px -100px;
+}
+
+.pr.pr-foodpanda {
+  background-position: -120px 0;
+}
+
+.pr.pr-gameflip {
+  background-position: -120px -20px;
+}
+
+.pr.pr-gcash {
+  background-position: -120px -40px;
+}
+
+.pr.pr-get {
+  background-position: -120px -60px;
+}
+
+.pr.pr-gett {
+  background-position: -120px -80px;
+}
+
+.pr.pr-globus {
+  background-position: -120px -100px;
+}
+
+.pr.pr-glovo {
+  background-position: 0 -120px;
+}
+
+.pr.pr-golos {
+  background-position: -20px -120px;
+}
+
+.pr.pr-google {
+  background-position: -40px -120px;
+}
+
+.pr.pr-grabtaxi {
+  background-position: -60px -120px;
+}
+
+.pr.pr-green {
+  background-position: -80px -120px;
+}
+
+.pr.pr-hqtrivia {
+  background-position: -100px -120px;
+}
+
+.pr.pr-icard {
+  background-position: -120px -120px;
+}
+
+.pr.pr-icq {
+  background-position: -140px 0;
+}
+
+.pr.pr-imo {
+  background-position: -140px -20px;
+}
+
+.pr.pr-instagram {
+  background-position: -140px -40px;
+}
+
+.pr.pr-iost {
+  background-position: -140px -60px;
+}
+
+.pr.pr-jd {
+  background-position: -140px -80px;
+}
+
+.pr.pr-kakaotalk {
+  background-position: -140px -100px;
+}
+
+.pr.pr-keybase {
+  background-position: -140px -120px;
+}
+
+.pr.pr-khl {
+  background-position: -160px 0;
+}
+
+.pr.pr-komandacard {
+  background-position: -160px -25px;
+}
+
+.pr.pr-lazada {
+  background-position: -160px -45px;
+}
+
+.pr.pr-lbry {
+  background-position: -160px -65px;
+}
+
+.pr.pr-lenta {
+  background-position: -160px -85px;
+}
+
+.pr.pr-line {
+  background-position: -160px -105px;
+}
+
+.pr.pr-linkedin {
+  background-position: 0 -140px;
+}
+
+.pr.pr-livescore {
+  background-position: -20px -140px;
+}
+
+.pr.pr-magnit {
+  background-position: -40px -140px;
+}
+
+.pr.pr-magnolia {
+  background-position: -60px -140px;
+}
+
+.pr.pr-mailru {
+  background-position: -80px -140px;
+}
+
+.pr.pr-mamba {
+  background-position: -100px -140px;
+}
+
+.pr.pr-mega {
+  background-position: -120px -140px;
+}
+
+.pr.pr-michat {
+  background-position: -140px -140px;
+}
+
+.pr.pr-microsoft {
+  background-position: -160px -140px;
+}
+
+.pr.pr-miratorg {
+  background-position: 0 -160px;
+}
+
+.pr.pr-naver {
+  background-position: -20px -160px;
+}
+
+.pr.pr-netflix {
+  background-position: -40px -160px;
+}
+
+.pr.pr-nike {
+  background-position: -60px -160px;
+}
+
+.pr.pr-nimses {
+  background-position: -80px -160px;
+}
+
+.pr.pr-nttgame {
+  background-position: -100px -160px;
+}
+
+.pr.pr-odnoklassniki {
+  background-position: -120px -160px;
+}
+
+.pr.pr-okey {
+  background-position: -140px -160px;
+}
+
+.pr.pr-olimp {
+  background-position: -160px -160px;
+}
+
+.pr.pr-olx {
+  background-position: -185px 0;
+}
+
+.pr.pr-openpoint {
+  background-position: -185px -20px;
+}
+
+.pr.pr-oraclecloud {
+  background-position: -185px -40px;
+}
+
+.pr.pr-other {
+  background-position: -185px -60px;
+}
+
+.pr.pr-ozon {
+  background-position: -185px -80px;
+}
+
+.pr.pr-papara {
+  background-position: -185px -100px;
+}
+
+.pr.pr-paymaya {
+  background-position: -185px -120px;
+}
+
+.pr.pr-paypal {
+  background-position: -185px -140px;
+}
+
+.pr.pr-perekrestok {
+  background-position: -185px -160px;
+}
+
+.pr.pr-pochtabank {
+  background-position: 0 -180px;
+}
+
+.pr.pr-pof {
+  background-position: -20px -180px;
+}
+
+.pr.pr-pokermaster {
+  background-position: -40px -180px;
+}
+
+.pr.pr-proton {
+  background-position: -60px -180px;
+}
+
+.pr.pr-pyaterochka {
+  background-position: -80px -180px;
+}
+
+.pr.pr-quipp {
+  background-position: -100px -180px;
+}
+
+.pr.pr-ripkord {
+  background-position: -120px -180px;
+}
+
+.pr.pr-seosprint {
+  background-position: -140px -180px;
+}
+
+.pr.pr-shopee {
+  background-position: -160px -180px;
+}
+
+.pr.pr-sipnet {
+  background-position: -180px -180px;
+}
+
+.pr.pr-skout {
+  background-position: -205px 0;
+}
+
+.pr.pr-snapchat {
+  background-position: -205px -20px;
+}
+
+.pr.pr-steam {
+  background-position: -205px -40px;
+}
+
+.pr.pr-tango {
+  background-position: -205px -60px;
+}
+
+.pr.pr-tantan {
+  background-position: -205px -80px;
+}
+
+.pr.pr-telegram {
+  background-position: -205px -100px;
+}
+
+.pr.pr-tencentqq {
+  background-position: -205px -120px;
+}
+
+.pr.pr-tiktok {
+  background-position: -205px -140px;
+}
+
+.pr.pr-tinder {
+  background-position: -205px -160px;
+}
+
+.pr.pr-truecaller {
+  background-position: -205px -180px;
+}
+
+.pr.pr-twitch {
+  background-position: 0 -200px;
+}
+
+.pr.pr-twitter {
+  background-position: -20px -200px;
+}
+
+.pr.pr-uber {
+  background-position: -40px -200px;
+}
+
+.pr.pr-uploaded {
+  background-position: -60px -200px;
+}
+
+.pr.pr-vernyi {
+  background-position: -80px -200px;
+}
+
+.pr.pr-viber {
+  background-position: -100px -200px;
+}
+
+.pr.pr-viberate {
+  background-position: -120px -200px;
+}
+
+.pr.pr-vkontakte {
+  background-position: -140px -200px;
+}
+
+.pr.pr-voopee {
+  background-position: -160px -200px;
+}
+
+.pr.pr-webmoney {
+  background-position: -180px -200px;
+}
+
+.pr.pr-wechat {
+  background-position: -200px -200px;
+}
+
+.pr.pr-weku {
+  background-position: -225px 0;
+}
+
+.pr.pr-whatsapp {
+  background-position: -225px -20px;
+}
+
+.pr.pr-yahoo {
+  background-position: -225px -40px;
+}
+
+.pr.pr-yalla {
+  background-position: -225px -60px;
+}
+
+.pr.pr-yandex {
+  background-position: -225px -80px;
+}
+
+.pr.pr-youdo {
+  background-position: -225px -100px;
+}
+
+.pr.pr-youla {
+  background-position: -225px -120px;
+}
+.products {
+  overflow: hidden !important;
+}
