@@ -1,0 +1,35 @@
+{
+  "name": "vue-jsa",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@commitlint/cli": "12.1.4",
+    "@commitlint/config-conventional": "^16.2.1",
+    "axios": "^0.26.1",
+    "commitizen": "^4.2.4",
+    "cz-customizable": "6.3.0",
+    "husky": "7.0.1",
+    "pinia": "^2.0.0-rc.10",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "sass": "^1.50.1",
+    "vite": "^2.9.5"
+  },
+  "repository": "https://github.com/lbtlm/vue-jsa.git",
+  "author": "sam<bwf5314@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
+  }
+}
