@@ -7,10 +7,8 @@ module.exports = {
   },
   extends: [
     'plugin:vue/vue3-recommended',
-    // 'google',
     'plugin:prettier/recommended' // Make sure "prettier" is the last element in this list.
   ],
-  parser: 'vue-eslint-parser',
 
   plugins: ['vue'],
   rules: {
