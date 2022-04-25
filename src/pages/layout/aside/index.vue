@@ -4,7 +4,7 @@
     <div class="pt-1 ml-4 flex content-start flex-wrap flex-row">
       <section>
         <button
-          v-for="(item, index) in countries"
+          v-for="(item, index) in coutries"
           :key="index"
           class="border border-gray-300 rounded px-1 mr-2 mb-2"
         >
@@ -22,19 +22,22 @@
 import axios from 'axios'
 
 // import { ref, toRefs, reactive } from 'vue'
+async function getCountryList() {
+  const countries = await axios
+    .get('http://api.hello-sms.com/v1/guest/countries')
+    .then(function (response) {
+      // console.log(response.data)
 
-const countries = axios
-  .get('http://api.hello-sms.com/v1/guest/countries')
-  .then(async function (response) {
-    // console.log(response.data)
+      return response.data
+    })
+    .catch(function (error) {
+      console.log(error)
+    })
+  return countries
+}
 
-    return response.data
-  })
-  .catch(function (error) {
-    console.log(error)
-  })
-
-console.log(countries)
+const coutries = getCountryList()
+console.log(coutries)
 
 // })
 
