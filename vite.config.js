@@ -7,6 +7,9 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 import eslintPlugin from 'vite-plugin-eslint'
 
 export default defineConfig({
+  define: {
+    'process.env': process.env
+  },
   resolve: {
     extensions: ['.vue', '.mjs', '.js', '.ts', '.jsx', '.tsx', '.json', '.node', '.scss'],
     alias: {

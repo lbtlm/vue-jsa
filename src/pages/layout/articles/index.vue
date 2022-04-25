@@ -1,12 +1,11 @@
 <template>
   <div
-    class="h-16 w-screen bg-slate-50 shadow flex justify-center space-x-16 divide-slate-300 text-l items-center text-blue-800"
+    class="flex py-1 text-blue-900 bg-white space-x-8 text-xl items-center justify-center mx-auto"
   >
-    <el-button type="text">主页</el-button>
-
-    <el-button type="text">介绍说明</el-button>
-    <el-button type="text">服务支持</el-button>
-    <el-button type="text">使用建议</el-button>
+    <el-button type="text" size="large">主页</el-button>
+    <el-button type="text" size="large">介绍说明</el-button>
+    <el-button type="text" size="large">服务支持</el-button>
+    <el-button type="text" size="large">使用建议</el-button>
   </div>
 </template>
 
