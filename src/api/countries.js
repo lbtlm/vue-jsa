@@ -1,8 +1,5 @@
-import request from './request'
+import service from './request'
 
 export const getCountryList = () => {
-  return request({
-    url: '/guest/countries',
-    method: 'GET'
-  })
+  return service.get('/guest/countries').then((res) => {})
 }
